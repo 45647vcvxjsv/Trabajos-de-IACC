@@ -1,2 +1,2 @@
 # paginas-de-prueba
-las primeras paginas web, que haremos aprendiendo html y css
+Glosario creado para la semana 1 de programacion 1 de iACC
