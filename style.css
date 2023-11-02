@@ -39,8 +39,8 @@ Article h1:after{
 }
 
 article img{
-    height: 200px;
-    width: 200px;
+    height: 20px;
+    width: 20px;
     border: 2px solid #fff;
     border-radius: 50%;
     margin-top: 60px;
