@@ -1,0 +1,29 @@
+class cliente:
+  def __init__(self,Nombre,Apellido,Direccion,Historial_Medico):
+    self.Nombre = Nombre
+    self.Apellido = Apellido
+    self.Direccion = Direccion
+    self.Historial_Medico = Historial_Medico
+  
+  def get_Nombre(self):
+    return self.Nombre
+  def set_Nombre(self,Nombre):
+    self.Nombre = Nombre
+  def get_Apellido(self):
+    return self.Apellido
+  def set_Apellido(self,Apellido):
+    self.Apellido = Apellido
+  def get_Direccion(self):
+    return self.Direccion
+  def set_Direccion(self,Direccion):
+    self.Direccion = Direccion
+  def get_Historial_Medico(self):
+    return self.Historial_Medico
+  def set_Historial_Medico(self,Historial_Medico):
+    self.Historial_Medico = Historial_Medico
+  
+
+paciente = cliente("Jazmin", "Valdez", "Ortega 45", "Ficha 3")
+
+
+
