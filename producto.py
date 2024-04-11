@@ -1,9 +1,14 @@
-class producto:
+from abc import abstractclassmethod
+
+class producto(abc):
   def __init__(self, Nombre, Precio,Descripcion, Medico):
     self.Nombre = Nombre
     self.Precio = Precio
     self.Descripcion = Descripcion
     self.Medico = Medico
+  
+  def __str__(self):
+    return f"Nombre: {self.Nombre}, Precio: {self.Precio}, Descripcion: {self.Descripcion}, Medico: {self.Medico}"
   
 
   
@@ -14,19 +19,24 @@ class producto:
   def get_Precio(self):
     return self.Precio
   def set_Precio(self, Precio):
-    return self.Precio
+    self.Precio = Precio
   def get_Descripcion(self):
     return self.Descripcion
   def set_Descripcion(self, Descripcion):
-    self.Descripcion
+    self.Descripcion = Descripcion
   def get_Medico(self):
     return self.Medico
   def set_Medico(self, Medico):
-    self.Medico
+    self.Medico = Medico
+
+  @abstractclassmethod
+  def metodo_abstracto(self):
+    return self.metodo_abstracto
+  
 
 
 lente = producto("Marco Vision", 100, "De Sol", "Juan")
 
 
 
-    
+print(lente)

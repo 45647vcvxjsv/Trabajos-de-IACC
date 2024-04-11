@@ -1,3 +1,4 @@
+
 class cliente:
   def __init__(self,Nombre,Apellido,Direccion,Historial_Medico):
     self.Nombre = Nombre
