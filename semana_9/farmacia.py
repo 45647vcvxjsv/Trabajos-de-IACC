@@ -62,3 +62,13 @@ class recetaMedica:
 
   def mostrarReceta(self):
     return f"Receta: NombreMedico: {self.NombreMedico}, Diagnostico: {self.Diagnostico}, FechaEmision: {self.FechaEmision}"
+
+infoPaciente1 = paciente1("Jose", "Cifuentes", "12336547-7", 35, "Marques 55")
+print(paciente1.mostrarDatos())
+
+medico1 = medico("Marcela", "Santelices", "Casrell 23", "Traumatologo")
+print(medico1.mostrarDatos())
+
+receta1 = receta(medico1, "Hipertension", "15-12-2024")
+print(receta1.mostrarDatos())
+
