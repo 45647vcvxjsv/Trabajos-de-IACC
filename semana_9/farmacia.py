@@ -52,7 +52,7 @@ class Paciente(Persona):
     self.Edad = Edad
 
   def mostrarDatos(self):
-    return f"Paciente: Nombre: {self.Nombre}, Apellido: {self.Apellido}, Edad: {self.Edad}, Dirección: {self.Direccion}, RUT: {self.Rut}"
+    return f"Paciente: Nombre: {self.Nombre}, Apellido: {self.Apellido}, Edad: {self.Edad}, Direccion: {self.Direccion}, RUT: {self.Rut}"
 
 class recetaMedica:
   def __init__(self, NombreMedico, Diagnostico, FechaEmision):
